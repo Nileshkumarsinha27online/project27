@@ -2,13 +2,15 @@
 body{
 	background:url('./8.jpg') no-repeat ;
 	background-size:cover;
+	
+	z-index: -2;
 	background-opacity:0.5;
 }
 .navContainer{
 	width:90%;
 	height:50px;
-	position:fixed;
-	margin-left:4%;
+	
+	margin-left:10%;
 	z-index:2;
 	
 }
