@@ -8,13 +8,17 @@ import {Provider} from 'react-redux';
 import { Router, Route, Link, browserHistory,IndexRoute} from 'react-router';
 import NavMenu from './components/NavBar';
 import HomeData from './components/HomeTab';
-
+import ImageWithText from './components/ImageWithText';
+import './components/Navbar/styles.scss';
 
 render(
 
-<div>
+<div className='bodyBackground'>
+	
 	<NavMenu />
+	<ImageWithText />
 	<HomeData />
 </div>
+
 	,document.getElementById('container')
 	);
